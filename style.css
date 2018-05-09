@@ -1,0 +1,43 @@
+main {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+#cart_container span {
+	display: block;
+}
+
+.productContainer {
+	width: 20%;
+	margin: 1rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.productContainer span {
+	width: 100%;
+	margin: 1rem;
+	text-align: center;
+}
+
+.add, .remove {
+	height: 2rem;
+	width: 10rem;
+}
+
+input {
+	width: 10%;
+	text-align: center;
+}
+
+.quantityContainer {
+	width: 100%;
+	margin-top: 1rem;
+	display: flex;
+	justify-content: center;
+}
